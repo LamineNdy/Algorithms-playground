@@ -1,6 +1,51 @@
   import Foundation
   
-    //MARK: - Adjacent Matrix
+    final class Queue<T: Equatable> {
+      
+      final class QueueNode<T> {
+        var data: T
+        var next: QueueNode<T>?
+        
+        init(data: T, next: QueueNode<T>? = nil) {
+          self.data = data
+          self.next = next
+        }
+      }
+      
+      var first: QueueNode<T>?
+      var last: QueueNode<T>?
+      
+      func add(_ data: T) {
+        let node = QueueNode<T>(data: data)
+        if last != nil {
+          last?.next = node
+        }
+        last = node
+        if first == nil {
+          first = node
+        }
+        
+      }
+
+      func pop() -> T? {
+        let data = first?.data
+        first = first?.next
+        if first == nil {
+          last = nil
+        }
+        return data
+      }
+      
+      func peek() -> T? {
+        return first?.data
+      }
+      
+      func isEmpty() -> Bool {
+        return first == nil
+      }
+    }
+  
+  //MARK: - Adjacent Matrix
   
   /// Matrix where all each edge connection is represented by 1 and 0 if not
   final class AdjacentMatrixGraph {
@@ -35,8 +80,20 @@
       return neightBours
     }
     
-    func bfs() {
-      
+    func bfs(node: String, marked: inout Set<String>) {
+      let queue = Queue<String>()
+      marked.insert(node)
+      queue.add(node)
+      while !queue.isEmpty() {
+        let dequeued = queue.pop()
+        print(dequeued!)
+        for neighbor in getNodeNeighbour(dequeued!) {
+          if !marked.contains(neighbor) {
+            marked.insert(neighbor)
+            queue.add(neighbor)
+          }
+        }
+      }
     }
     
     func dfs(node: String, marked: inout Set<String>) {
@@ -66,12 +123,16 @@
   graph1.addEdge(from: "3", dest: "4")
   graph1.getNodeNeighbour("0")
   var marked: Set<String> = []
+  print("Running Breath-First Search Traversal")
   graph1.dfs(node: "0", marked: &marked)
+  marked.removeAll()
+  print("Running Depth-First Search Traversal")
+  graph1.bfs(node: "0", marked: &marked)
   print("Done")
   
   
   //MARK: - Adjacent List
-// Represne tgraph by an sequence of nodes, not can ca be a struct with a value a a sequence of neighbours
+// Represnet graph by an sequence of nodes, not can ca be a struct with a value a a sequence of neighbours
   final class Node {
     var data: String
     var neightbour: [Node]
