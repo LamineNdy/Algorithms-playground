@@ -47,4 +47,13 @@ final class Stack<T:Equatable> {
   }
 }
 
+let stack =  Stack<Int>()
+stack.peek() == nil
+stack.push(1)
+stack.push(2)
+stack.push(3)
+stack.pop() == 3
+stack.pop() == 2
+stack.pop() == 1
+
 //: [Next](@next)

@@ -28,7 +28,7 @@ final class Queue<T: Equatable> {
     }
     
   }
-
+  
   func pop() -> T? {
     let data = first?.data
     first = first?.next
@@ -46,6 +46,15 @@ final class Queue<T: Equatable> {
     return first == nil
   }
 }
+
+let queue =  Queue<Int>()
+queue.peek() == nil
+queue.add(1)
+queue.add(2)
+queue.add(3)
+queue.pop() == 1
+queue.pop() == 2
+queue.pop() == 3
 
 //: [Next](@next)
 
