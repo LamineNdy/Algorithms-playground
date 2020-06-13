@@ -2,7 +2,7 @@
 
 import Foundation
 
-var str = "Hello, playground"
+// Do only one edi
 
 /*
  Example
@@ -11,12 +11,12 @@ var str = "Hello, playground"
  Paale -> Pale == true -> traverse first, check count, then replace add or remove
  
  Solution:
- Check count == same ot count + 1
+ Check count == same of count + 1
  if count == same -> replace
  //
  if count == +1 -> remove
  if count == -1 -> insert
- just check if input is a substring of result
+ just check if the input is a substring of result
  */
 
 final class Solution {
