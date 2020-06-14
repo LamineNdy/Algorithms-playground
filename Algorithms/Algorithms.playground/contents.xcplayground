@@ -9,5 +9,7 @@
         <page name='RotateMatrix'/>
         <page name='stringRotation'/>
         <page name='StackOfPlate'/>
+        <page name='Hashmap'/>
+        <page name='listOfDepths'/>
     </pages>
 </playground>
