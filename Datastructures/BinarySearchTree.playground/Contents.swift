@@ -33,7 +33,7 @@ class Solution {
       return false
     }
     // Check left node is in [min; root.val - 1] and right node is in [root.val + 1, max]
-    return checkBst(root?.left, min, root!.val - 1) && checkBst(root?.right, root!.val + 1 ,max)
+    return checkBst(root?.right, min, root!.val - 1) && checkBst(root?.right, root!.val + 1 ,max)
   }
 }
 

@@ -56,7 +56,7 @@ final class Trie {
   private func contains(prefix: String, exactWord: Bool) -> Bool {
     /*
      * loop over the chars of the word and get the corresponding node for each of them
-     * if the node happen to be nil, thats means the word is mising some part
+     * if the node happen to be nil, thats means the word is missing some part
      * if we get through the end, all the chars are found, we just need to check if it's a word
      */
     var lastNode: TrieNode? = root
