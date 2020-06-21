@@ -13,7 +13,7 @@ The repo is devided in 2 categrories:
 - [Graphs](Datastructures/Graphs)
 - [Queue](Datastructures/Queue)
 - [Stack](Datastructures/Stack)
-- [Trees](Datastructures/Trees)
+- [Tree](Datastructures/Tree)
 - [ArrayList](Datastructures/ArrayList)
 - [Trie](Datastructures/Trie)
 
