@@ -11,6 +11,6 @@
         <page name='StackOfPlate'/>
         <page name='Hashmap'/>
         <page name='listOfDepths'/>
-        <page name='BinarySearch'/>
+        <page name='Topological Build order'/>
     </pages>
 </playground>
