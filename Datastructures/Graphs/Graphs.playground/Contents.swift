@@ -85,6 +85,7 @@
       graph1.dfs(node: node, marked: &marked)
     }
     
+    // Breath first search
     private func bfs(node: String, marked: inout Set<String>) {
       let queue = Queue<String>()
       marked.insert(node)
@@ -106,6 +107,7 @@
       graph1.dfs(node: node, marked: &marked)
     }
     
+    // Depth first Search
     private func dfs(node: String, marked: inout Set<String>) {
       let foundNode = vertices.firstIndex(of: node)
       guard foundNode != nil else {

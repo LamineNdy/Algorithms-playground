@@ -31,7 +31,6 @@ struct Stack<T>{
   
 }
 
-
 /// State to define where we are at in the DFS to avoid reference cycle
 enum DFSState {
   case blank

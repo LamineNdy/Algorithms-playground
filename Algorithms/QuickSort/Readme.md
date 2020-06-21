@@ -1,0 +1,1 @@
+# [Quick sort](https://en.wikipedia.org/wiki/Quick_sort)
