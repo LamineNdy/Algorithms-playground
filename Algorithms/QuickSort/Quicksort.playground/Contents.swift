@@ -23,6 +23,3 @@ let list = [ 10, 0, 3, 9, 2, 14, 8, 27, 1, 5, 8, -1, 26, 90 ]
 
 let sorted = quickSort(array: list)
 
-//sall test Array.count/ 2 will always return a rounded mumber :)
-var doubleToInt = Int(2.9)
-
