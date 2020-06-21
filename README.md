@@ -23,8 +23,13 @@ The repo is devided in 2 categrories:
 - [Quicksort](Algorithms/Quicksort/)
 - [MergeSort](Algorithms/MergeSort/)
 
+
 ### Searching
 - [BinarySearch](Algorithms/BinarySearch)
 
 ## Recursive && memoisation
 - [Recursive](Algorithms/Recursive)
+
+## Traversal
+- [Breadth- First Search](https://github.com/LamineNdy/Algorithms-playground/blob/a2f33e5717cb5e601a8430a9e32c158a2e95a744/Datastructures/Graphs/Graphs.playground/Contents.swift#L89)
+- [Depth-First Search](https://github.com/LamineNdy/Algorithms-playground/blob/a2f33e5717cb5e601a8430a9e32c158a2e95a744/Datastructures/Graphs/Graphs.playground/Contents.swift#L111)
