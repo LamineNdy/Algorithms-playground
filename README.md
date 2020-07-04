@@ -20,8 +20,8 @@ The repo is devided in 2 categrories:
 ## Algorithms
 
 ### Sorting
-- [Quicksort](Algorithms/Quicksort/)
-- [MergeSort](Algorithms/MergeSort/)
+- [Quicksort](Algorithms/QuickSort)
+- [MergeSort](Algorithms/MergeSort)
 
 
 ### Searching
