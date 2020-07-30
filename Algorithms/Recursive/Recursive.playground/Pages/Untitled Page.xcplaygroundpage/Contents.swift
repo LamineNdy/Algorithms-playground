@@ -32,4 +32,3 @@ Solution().fib(1)
 Solution().fib(2)
 Solution().fib(3)
 Solution().fib(8)
-

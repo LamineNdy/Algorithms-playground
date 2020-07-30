@@ -38,7 +38,7 @@ enum DFSState {
   case completed
 }
 
-/// Projevt class definition
+/// Project class definition
 final class Project {
   var name: String
   var dependencies: [String: Project] = [:]
