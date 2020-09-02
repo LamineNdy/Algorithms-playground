@@ -3,8 +3,8 @@
 Datastructures and algorithms implementations in swift.
 
 The repo is devided in 2 categrories: 
-* Datastructures: Basics Implementations with minimal operations
-* Algorithms  Algorithms and problems solution implmentations
+* Datastructures Implementations with minimal operations
+* Algorithms and problems solution implmentations
 
 ## Data structures
 
@@ -31,5 +31,5 @@ The repo is devided in 2 categrories:
 - [Recursive](Algorithms/Recursive)
 
 ## Graph traversal
-- [Breadth- First Search](https://github.com/LamineNdy/Algorithms-playground/blob/a2f33e5717cb5e601a8430a9e32c158a2e95a744/Datastructures/Graphs/Graphs.playground/Contents.swift#L89)
+- [Breadth-first search](https://github.com/LamineNdy/Algorithms-playground/blob/a2f33e5717cb5e601a8430a9e32c158a2e95a744/Datastructures/Graphs/Graphs.playground/Contents.swift#L89)
 - [Depth-First Search](https://github.com/LamineNdy/Algorithms-playground/blob/a2f33e5717cb5e601a8430a9e32c158a2e95a744/Datastructures/Graphs/Graphs.playground/Contents.swift#L111)
