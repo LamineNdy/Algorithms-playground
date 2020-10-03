@@ -155,16 +155,15 @@ struct Solution2_4{
     while nodeTmp != nil {
       let next = nodeTmp?.next
       if nodeTmp?.data != nil && nodeTmp!.data < partition {
-        nodeTmp?.next = nodeTmp
+        nodeTmp?.next = head
         head = nodeTmp
       } else {
-        nodeTmp?.next = nodeTmp
+        tail?.next = nodeTmp
         tail = nodeTmp
       }
       nodeTmp = next
     }
     tail?.next = nil
-    // Append tail to head
     return head!
   }
 }
