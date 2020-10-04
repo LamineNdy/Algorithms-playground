@@ -49,29 +49,6 @@ Solution().rotateMatrix(&array)
 
 array
 
-struct Person {
-  var name: String
-  init(name: String) {
-    self.name = name
-  }
-}
-
-var str = "hello"
-var str2 = str
-let st3 = str
-str += " word"
-str
-str2
-st3
-
-var p1 = Person(name: "Hey")
-var p2 = p1
-var p3 = p1
-p1.name = "plop"
-//p3.name = "Hi"
-p1.name
-p2.name
-p3.name
 
 //: [Next](@next)
 
