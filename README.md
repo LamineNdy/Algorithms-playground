@@ -16,6 +16,7 @@ The repo is devided in 2 categrories:
 - [Tree](Datastructures/Tree)
 - [ArrayList](Datastructures/ArrayList)
 - [Trie](Datastructures/Trie)
+- [Heap](Datastructures/Heap)
 
 ## Algorithms
 
