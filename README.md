@@ -9,7 +9,7 @@ The repo is devided in 2 categrories:
 ## Data structures
 
 - [ArrayList](Datastructures/ArrayList)
-- [BinarySearchTree](Quicksort/BinarySearchTree)
+- [BinarySearchTree](Datastructures/BinarySearchTree)
 - [Graphs](Datastructures/Graphs)
 - [Queue](Datastructures/Queue)
 - [Stack](Datastructures/Stack)
